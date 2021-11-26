@@ -1,0 +1,76 @@
+:root {
+    --primary-color:#1bb68f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+  color: #151784;
+  font-family: Helvetica, Arial, sans-serif;   
+}
+
+header {
+  display: flex;
+  padding: 20px 35px;
+  background-color: #000000;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+  
+  header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 1.3vw;
+      color: var(--primary-color);
+      text-decoration: none;
+      border-bottom: 2px solid;
+      padding-bottom: 2px;
+    }
+
+    .developer {
+        height: 350px;
+        background-image: url("https://media-exp1.licdn.com/dms/image/C561BAQGpxRlo9gp3cQ/company-background_10000/0/1548686474966?e=2159024400&v=beta&t=kc7MUYbXutHt2pvcb6ljpEcvhyp7jMLZf_OlSEnuh0M");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .developer h2 {
+        font-style: normal;
+        font-size: 20px;
+        border-style: inset;
+        color: var(--primary-color);
+        margin-top: 300px;
+        background-color:rgba(7, 8, 2, 0.019);
+      }
+
+      .myimage{
+        position: absolute;
+        bottom: 50px;
+        right: 15x;
+        height:150px;
+        width: 150px;
+      }
